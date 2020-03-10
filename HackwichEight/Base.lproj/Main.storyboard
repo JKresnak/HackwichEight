@@ -23,7 +23,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="My Guess"/>
                                 <connections>
-                                    <action selector="MyButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="x2b-2G-Z5k"/>
+                                    <action selector="Button:" destination="BYZ-38-t0r" eventType="touchUpInside" id="q60-A6-hX5"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sQg-OW-T7K">

@@ -30,7 +30,7 @@ class ViewController: UIViewController {
 
         @IBAction func Button(_ sender: Any) {
 
-        let Alert = UIAlertController(title: "Hello World", message: "Lol ecks dee", preferredStyle:.alert)
+        let Alert = UIAlertController(title: "Hello World", message: message, preferredStyle:.alert)
         
         let action = UIAlertAction(title: "Awesome", style: .default, handler: nil)
         
@@ -38,12 +38,8 @@ class ViewController: UIViewController {
         
         present(Alert, animated: true, completion: nil)
     }
-    @IBAction func MyButtonPressed(_ sender: Any) {
-        
-    }
-    
     @IBAction func SliderMoved(_ sender: Any) {
-        print("The value of the slider is:\(UISlider.value)")
+        print("The value of the slider is:\(Slider.value)")
         currentValue = lroundf(Slider.value)
     }
 }
